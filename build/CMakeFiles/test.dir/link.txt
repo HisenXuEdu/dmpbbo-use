@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -std=c++0x -fPIC  -rdynamic CMakeFiles/test.dir/test.cpp.o CMakeFiles/test.dir/runSimulationThrowBall.cpp.o  -o test  -L/remote-home/2230728/project/dmp/testdmplib/lib -Wl,-rpath,/remote-home/2230728/project/dmp/testdmplib/lib -ldmp -ldynamicalsystems -lfunctionapproximators -lboost_filesystem -lboost_system 
